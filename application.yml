@@ -1,0 +1,17 @@
+spring:
+    profiles:
+         active:
+              - dev
+
+
+---
+spring:
+      profiles: test
+      application:
+            name:  cbg-test
+      
+---
+spring:
+      profiles: dev
+      application:
+            name:  cbg-dev
