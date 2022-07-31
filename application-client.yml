@@ -16,7 +16,7 @@ eureka:
         service-url:
                   defaultZone: http://localhost:7001/eureka/
 chen:
-    info: chen1
+    info: chen2
 
 
 
